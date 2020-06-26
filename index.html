@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A kind of Word</title>
+    <link href="https://fonts.googleapis.com/css2?family=Iceland&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <head> 
+
+        <div id="menu" class="flex_row">
+            <input type="file" name="document" />
+            <button onclick="save()">Sauvegarder</button>
+            <button onclick="print()">Imprimer</button>
+            <button onclick="parameters">Paramètres</button>
+
+        </div>
+
+    </head>
+    
+    <aside>
+
+        <div id="properties" class="flex_row">
+            
+            <div>
+                <h2>Couleurs</h2>
+                <div></div>
+            </div>
+
+        </div>
+
+    </aside>
+
+    <div id="sheet"></div>
+
+    <script src="js/main.js"></script>    
+
+</body>
+
+</html>
